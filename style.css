@@ -198,6 +198,7 @@ transform: scale(1.2);
   background-color: white;
   box-shadow: 0px 10px 50px 5px #00000005;
   border-radius: 20px;
+  height: 115px;
 }
 
 .price-rating {
@@ -307,14 +308,16 @@ transform: scale(1.2);
   align-items: center;
   padding-top: 20px;
   border-radius: 20px 20px 0 0;
+  height: 297px;
 }
 
 .product-card-arrivals {
   width: 380px;
-  height: 429.1620788574219px;
+  height: 429px;
   margin: 10px;
   margin-bottom: 20px;
   cursor: pointer;
+  height: 4;
 }
 .product-card-arrivals:hover .bg-black {
   background-color: transparent;
