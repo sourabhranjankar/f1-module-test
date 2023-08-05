@@ -19,22 +19,37 @@ body {
 
 .nav-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-inline: auto;
   align-items: start;
   padding-top: 10px;
 }
+.nav-menu>a{
+  text-decoration: none;
+  font-family: Rubik;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color: grey;
+font-size: 20px;
+width: 100px;
+padding: 0;
 
-.nav-menu > p {
-  padding: 0 0 10px 10px;
 }
-.nav-menu > p:first-child {
+
+.nav-menu > a:hover {
   color: #ff5153;
   font-family: Rubik;
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
+}
+
+.nav-icons{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 .hero-section {
@@ -43,6 +58,11 @@ body {
   align-self: center;
   width: 90vw;
   margin-inline: auto;
+  cursor: pointer;
+}
+.hero-poster>img{
+  width: 100%;
+  
 }
 .collection {
   margin-top: 30px;
@@ -117,7 +137,13 @@ body {
   height: 429.1620788574219px;
   margin: 10px;
   margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+
+
 }
+
+
 
 .bg-oran {
   background-image: linear-gradient(
@@ -132,7 +158,21 @@ body {
   align-items: center;
   padding-top: 20px;
   border-radius: 20px 20px 0 0;
+  height: 350px;
 }
+.like-wishlist{
+  width: 45px;
+  height: 45px;
+  background-color: #FF5E3A;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .product-details {
   display: flex;
@@ -168,6 +208,7 @@ body {
 }
 .new-arrivals{
   margin-bottom: 100px;
+  padding-top: 50px;
 }
 
 .posters{
@@ -176,15 +217,18 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-inline: auto;
-  margin-top: 50px;
+  margin-top: 100px;
+  flex-wrap: wrap;
 
 }
 .poster-3>img{
   height: 530px;
+  
 }
 .poster-1,.poster-2,.poster-3{
-
+  margin: 10px;
   position: relative;
+  cursor: pointer;
 }
 
 
@@ -256,13 +300,17 @@ height: 160px;
 }
 
 
+
 .product-card-arrivals {
   width: 380px;
   height: 429.1620788574219px;
   margin: 10px;
   margin-bottom: 20px;
+  cursor: pointer;
+
 }
 .bg-black:hover{
+  background-color: transparent;
   background-image:linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
 
 
