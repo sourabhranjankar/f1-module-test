@@ -25,6 +25,7 @@ body {
   align-items: start;
   padding-top: 10px;
   transition: all 0.7s ease;
+
 }
 .nav-menu > a {
   text-decoration: none;
@@ -36,7 +37,6 @@ body {
   font-size: 20px;
   width: 100px;
   padding: 0;
-  transition: all 0.7s ease;
 }
 
 .nav-menu > a:hover {
@@ -59,6 +59,8 @@ body {
   -webkit-box-shadow: -4px -1px 112px 7px rgba(255,255,255,0.75);
   -moz-box-shadow: -4px -1px 112px 7px rgba(255,255,255,0.75);
 transform: scale(1.2);
+transition: all 0.5s ease;
+
 }
 
 .hero-section {
@@ -78,6 +80,8 @@ transform: scale(1.2);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all 0.7s ease;
+
 }
 .collection-head {
   display: flex;
@@ -103,6 +107,7 @@ transform: scale(1.2);
   display: flex;
   justify-content: center;
   align-self: center;
+
 }
 
 .collection-button {
@@ -117,6 +122,8 @@ transform: scale(1.2);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 900;
+  transition: all 0.7s ease;
+
   color: #4f5665;
 }
 
@@ -139,6 +146,7 @@ transform: scale(1.2);
   margin-inline: auto;
   margin-top: 100px;
   transition: all 0.7s ease;
+
 }
 
 .product-card {
@@ -178,20 +186,24 @@ transform: scale(1.2);
   align-items: center;
   justify-content: center;
   display: none;
-  transition: all 0.7s ease;
+  transition: all 0.4s ease;
+
 }
 .like-wishlist:hover{
   transform: scale(1.2);
   box-shadow: -4px -1px 143px -25px rgba(255,255,255,0.75);
   -webkit-box-shadow: -4px -1px 143px -25px rgba(255,255,255,0.75);
   -moz-box-shadow: -4px -1px 143px -25px rgba(255,255,255,0.75);
+
 }
+
 
 .product-card:hover .like-wishlist{
   display: block;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .product-details {
   display: flex;
@@ -203,6 +215,7 @@ transform: scale(1.2);
   border-radius: 20px;
   height: 115px;
   transition: all 0.7s ease;
+
 
 }
 
@@ -227,7 +240,6 @@ transform: scale(1.2);
 .new-arrivals {
   margin-bottom: 100px;
   padding-top: 50px;
-  transition: all 0.7s ease;
 
 }
 
@@ -338,13 +350,14 @@ transition: all 0.8s ease-in;
     rgba(252, 203, 144, 0.44) 0%,
     rgba(255, 154, 158, 0.38) 100%
   );
+  transition: all 0.5s ease-in;
+
 }
 
 .product-title-hidden-cart {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all 0.8s ease-in;
 
   
 }
@@ -387,13 +400,14 @@ transition: all 0.8s ease-in;
   text-align: left;
   color: grey;
   padding: 3px;
+  transition: all 0.8s ease-in;
+
 }
 
 footer {
   width: 100%;
   background-color: #fcf3ec;
   height: 500px;
-  transition: all 0.7s ease;
 
 }
 
