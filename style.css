@@ -1,1 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500&family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fafafa;
+}
 
+.main-nav {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  align-items: start;
+  padding-top: 20px;
+  width: 80vw;
+  margin-bottom: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  align-items: start;
+  padding-top: 10px;
+}
+
+.nav-menu > p {
+  padding: 0 0 10px 10px;
+}
+.nav-menu > p:first-child {
+  color: #ff5153;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 90vw;
+  margin-inline: auto;
+}
+.collection {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.collection-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection-head > p {
+  margin: 0;
+}
+
+.collection-head > h4 {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.collection-nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.collection-button {
+  border-radius: 15px;
+  background: none;
+  border: none;
+  background-color: white;
+  width: 130px;
+  height: 60px;
+  margin: 10px;
+  box-shadow: 0px 8px 10px 0px #0000000d;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 900;
+  color: #4f5665;
+}
+
+.collection-nav > button:focus {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 81, 81, 0.5) 0%,
+    #ff5e3a 100%
+  );
+  color: white;
+  box-shadow: 0px 13px 78px 2px rgba(255, 99, 72, 0.75);
+  -webkit-box-shadow: 0px 13px 78px 2px rgba(255, 99, 72, 0.75);
+  -moz-box-shadow: 0px 13px 78px 2px rgba(255, 99, 72, 0.75);
+}
