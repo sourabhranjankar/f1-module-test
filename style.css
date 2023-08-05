@@ -517,6 +517,7 @@ html{
     flex-direction: column;
     padding: 0;
     height: 300px;
+    width: 100%;
     align-items: center;
    }
    footer{
@@ -527,26 +528,22 @@ html{
     display: none;
    }
 
-   .poster-1>img{
-    width: 100%;
-   }
-   .new-arrivals{
-    width: 100%;
-   }
+  
+   
    .posters{
-    width: 100%;
-    margin: 20px;
-    box-sizing: border-box;
+    width: 100vw;
    }
    .poster-1>img{
-    width: 90%;
+    width: 100%;
    }
    .poster-2>img{
-    width: 90%;
+    width: 100%;
+    
    }
    .poster-3>img{
-    width: 90%;
+    width: 100%;
    }
    
-
+   
+   
 }
