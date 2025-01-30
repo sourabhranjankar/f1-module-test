@@ -189,7 +189,7 @@ transition: all 0.5s ease;
   align-items: center;
   justify-content: center;
   display: none;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease-in;
 
 }
 .like-wishlist:hover{
@@ -200,12 +200,17 @@ transition: all 0.5s ease;
 
 }
 
+.product-card-arrivals{
+  transition: all 1s ease;
+}
 
-.product-card:hover .like-wishlist{
+
+.product-card:hover, .like-wishlist{
   display: block;
   display: flex;
   align-items: center;
   justify-content: center;
+
 
 }
 .product-details {
@@ -343,7 +348,7 @@ transition: all 0.5s ease;
   margin: 10px;
   margin-bottom: 20px;
   cursor: pointer;
-transition: all 0.8s ease-in;
+  transition: all 2s ease-in;
   height: 4;
 }
 .product-card-arrivals:hover .bg-black {
@@ -478,6 +483,8 @@ td > div {
 .contact-us {
   height: 50px;
 }
+
+@keyframes 
 
 
 
